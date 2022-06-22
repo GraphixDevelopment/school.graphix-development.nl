@@ -213,11 +213,10 @@ body.dark-theme {
   content: '';
   position: absolute;
   bottom: -.75rem;
-  left: 45%;
-  width: 5px;
+  left: 0%;
+  width: 100px;
   height: 5px;
   background-color: var(--title-color);
-  border-radius: 50%;
 }
 
 /* Change background header */

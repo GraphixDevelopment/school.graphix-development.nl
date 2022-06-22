@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School | GD™</title>
-    <link rel="shortcut icon" type="image" href="assets/img/logo.png">
 
-    <!--=============== META ===============-->
+    <!--| META LINK |-->
+
     <meta name=”robots” content=”index, follow” />
     <meta property="og:title" content="School | GD™">
     <meta property="og:description" content="Website voor ons school project">
@@ -18,19 +17,34 @@
     <meta property="og:footer" content="Graphix™ Development" />
     <meta content="#ff3333" data-react-helmet="true" name="theme-color" />
 
-    <!--=============== CSS ===============-->
+    <!--| CSS STYLING |-->
+
     <link rel="stylesheet" href="assets/css/hoofdvraag.css">
 
-    <!--=============== BOXICONS ===============-->
+    <!--| BOXICONS |-->
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+
+    <!--| SITE HEADING |-->
+
+    <title>School | GD™</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/default/favicon.png">
 
 </head>
 
 <body>
-    <!--=============== HEADER ===============-->
+    <!--| HEADER |-->
+
     <header class="header" id="header">
+
+        <!--| NAVBAR CONTAINER |-->
+
         <nav class="nav container">
-            <a href="/" class="nav__logo">GD™</a>
+
+            <a href="" class="nav__logo">GD™</a>
+
+            <!--| NAVBAR LIST |-->
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
@@ -39,16 +53,19 @@
                             Hoofdvraag
                         </a>
                     </li>
+
                     <li class="nav__item">
                         <a href="/deelvraag-1" class="nav__link">
                             Deelvraag 1
                         </a>
                     </li>
+
                     <li class="nav__item">
                         <a href="/deelvraag-2" class="nav__link">
                             Deelvraag 2
                         </a>
                     </li>
+
                     <li class="nav__item">
                         <a href="/deelvraag-3" class="nav__link">
                             Deelvraag 3
@@ -58,37 +75,66 @@
                 </ul>
             </div>
 
+            <!--| RESPONSIVE NAVBAR |-->
+
             <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-grid-alt'></i>
+                <i class="iconify" data-icon="charm:apps"></i>
             </div>
         </nav>
+
     </header>
 
+    <!--| MAIN CODE |-->
+
     <main class="main">
-        <!--=============== HOME ===============-->
+
+        <!--| HOME |-->
+
         <section class="home section" id="home">
+
             <div class="home__container container grid">
+
+                <!--| TITLE |-->
 
                 <div class="home__data">
                     <h1 class="home__title">
+
+                        <!--| TEXT |-->
+
                         <div class="disable-select">
                             Hoe start je een bedrijf</p>op minderjarige leeftijd?
                         </div>
                     </h1>
                 </div>
+
         </section>
 
-        <!--=============== hoofdvraag_left ===============-->
+        <!--| AANLEIDING |-->
+
         <section class="hoofdvraag_left_left section container" id="hoofdvraag_left">
+
             <div class="hoofdvraag_left__container grid">
+
+                <!--| IMAGE |-->
+
                 <img class="svg__img svg__color hoofdvraag_left__img" src="assets/img/error.png" draggable="false">
+
+                <!--| DIV |-->
+
                 <div class="hoofdvraag_left__data">
+
+                    <!--| TITLE |-->
+
                     <h2 class="section__title-center">
                         <div class="disable-select">
                             Aanleiding
                         </div>
                     </h2>
+
+                    <!--| DESCRIPTION |-->
+
                     <p class="hoofdvraag_left__description">
+
                     <div class="disable-select">
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do
@@ -96,30 +142,47 @@
                         nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                         <br>
                     </div>
+
                     </p>
                 </div>
                 </svg>
             </div>
         </section>
 
-        <!--=============== hoofdvraag_right ===============-->
+        <!--| EIGEN BAAS |-->
+
         <section class="hoofdvraag_right section container">
+
             <div class="hoofdvraag_right__container grid">
+
+                <!--| DIV |-->
+
                 <div class="hoofdvraag_right__data">
+
+                    <!--| TITLE |-->
+
                     <h2 class="section__title-center">
                         <div class="disable-select">
                             Eigen baas
                         </div>
                     </h2>
+
+                    <!--| DESCRIPTION |-->
+
                     <p class="hoofdvraag_right__description">
+
                     <div class="disable-select">
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                         nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat<br>
                     </div>
+
                     </p>
+
                 </div>
+
+                <!--| IMAGE |-->
 
                 <img src="assets/img/error.png" draggable="false">
 
@@ -207,6 +270,7 @@
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 </body>
 
 </html>
