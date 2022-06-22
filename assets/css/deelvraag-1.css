@@ -232,12 +232,10 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 15px;
   background: #ff3333;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  border-radius: 15px;
   background: #ff5b5b;
   transition: .4s;
 }
