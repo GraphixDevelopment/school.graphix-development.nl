@@ -216,7 +216,7 @@ body.dark-theme {
   left: 0%;
   width: 100px;
   height: 5px;
-  background-color: var(--title-color);
+  background-color: #ff3d3d;
 }
 
 /* Change background header */
