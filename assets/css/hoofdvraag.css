@@ -209,6 +209,11 @@ img {
   color: hsl(45, 4%, 35%);
 }
 
+.footer__link {
+  color: #ff3333;
+}
+
+
 /*--| SCROLL BAR |--*/
 
 * {
