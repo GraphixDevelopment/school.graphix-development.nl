@@ -19,4 +19,6 @@ Deze website is gemaakt voor een school project gericht op het starten van een b
 - [ ] Scroll Bar
 - [ ] Meta Links
 
+![Graphix Development](/preview.png "Graphix Development")
+
 Geef een ⭐️ als je dit project interessant vind!
