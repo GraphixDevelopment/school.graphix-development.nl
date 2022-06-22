@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
-/*=============== BASE ===============*/
+/*--| DEFAULT CSS |--*/
+
 *,
 ::before,
 ::after {
@@ -43,7 +44,8 @@ img {
   height: auto;
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
+/*--| SECTIONS |--*/
+
 .section {
   padding: 4.5rem 0 1rem;
 }
@@ -56,7 +58,8 @@ img {
   margin-bottom: 1rem;
 }
 
-/*=============== LAYOUT ===============*/
+/*--| DEFAULT CSS |--*/
+
 .container {
   max-width: 968px;
   margin-left: 1.5rem;
@@ -66,17 +69,6 @@ img {
 .grid {
   display: grid;
   gap: 1.5rem;
-}
-
-/*=============== HEADER ===============*/
-.header {
-  width: 100%;
-  background-color: hsl(45, 0%, 100%);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  transition: .5s;
 }
 
 .disable-select {
@@ -92,7 +84,20 @@ img {
   /* Internet Explorer/Edge */
 }
 
-/*=============== NAV ===============*/
+/*--| HEADER |--*/
+
+.header {
+  width: 100%;
+  background-color: hsl(45, 0%, 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: .5s;
+}
+
+/*--| NAVIGATION BAR |--*/
+
 .nav {
   height: 3rem;
   display: flex;
@@ -156,12 +161,12 @@ img {
   background-color: #ff3d3d;
 }
 
-/* Change background header */
 .scroll-header {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
-/*=============== HOME ===============*/
+/*--| HOME |--*/
+
 .home__container {
   row-gap: 3rem;
 }
@@ -173,7 +178,8 @@ img {
   width: 1000px;
 }
 
-/*=============== HOOFDVRAAG ===============*/
+/*--| HOOFDVRAAG |--*/
+
 .hoofdvraag_left__container {
   gap: 2.5rem;
 }
@@ -190,7 +196,7 @@ img {
   text-align: center;
 }
 
-/*=============== FOOTER ===============*/
+/*--| FOOTER |--*/
 
 .footer {
   height: 10px;
@@ -203,7 +209,8 @@ img {
   color: hsl(45, 4%, 35%);
 }
 
-/*=============== SCROLL BAR ===============*/
+/*--| SCROLL BAR |--*/
+
 * {
   margin: 0;
   padding: 0;
@@ -234,8 +241,8 @@ html {
   transition: .4s;
 }
 
-/*=============== MEDIA QUERIES ===============*/
-/* For small devices */
+/*--| RESPONSIVE |--*/
+
 @media screen and (max-width: 360px) {
   .section {
     padding: 3.5rem 0 1rem;
@@ -315,7 +322,6 @@ html {
 }
 
 
-/* For medium devices */
 @media screen and (min-width: 576px) {
   .section__title-center {
     text-align: initial;
@@ -379,7 +385,6 @@ html {
   }
 }
 
-/* For large devices */
 @media screen and (min-width: 968px) {
   .button__header {
     display: block;
@@ -391,6 +396,7 @@ html {
   .contact__container {
     column-gap: 6rem;
   }
+
   .footer__container {
     grid-template-columns: repeat(5, 1fr);
   }
