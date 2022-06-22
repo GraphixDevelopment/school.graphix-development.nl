@@ -328,10 +328,6 @@ html {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .home__img {
-    order: 1;
-  }
-
   .home__container,
   .hoofdvraag_left__container,
   .hoofdvraag_right__container {
@@ -389,35 +385,14 @@ html {
     display: block;
   }
 
-  .svg__img {
-    width: 470px;
-  }
-
   .hoofdvraag_left__container,
   .hoofdvraag_right__container,
   .app__container,
   .contact__container {
     column-gap: 6rem;
   }
-
-  .services__container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .contact__container {
-    grid-template-columns: 3fr 1.5fr 1.25fr;
-  }
-
   .footer__container {
     grid-template-columns: repeat(5, 1fr);
-  }
-
-  .footer__social {
-    align-items: flex-start;
-  }
-
-  .footer__social-link {
-    font-size: 1.45rem;
   }
 }
 
@@ -444,11 +419,6 @@ html {
     font-weight: 700;
     text-align: center;
     width: 1000px;
-  }
-
-  img {
-    max-width: 70%;
-    height: auto;
   }
 }
 
